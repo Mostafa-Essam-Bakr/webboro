@@ -13,6 +13,17 @@ export default function Pro(){
     return(
         <div className="parent-img">
 
-            <div  style={{display:"flex", zIndex:"2"}}><img src={im1} alt="1"  /><i  id="heart"  className="fa-solid fa-heart"></i></div>
+           <div  style={{display:"flex", zIndex:"2"}}><img src={im1} alt="1"  /><i  id="heart"  className="fa-solid fa-heart" onClick={Ch}></i></div>
             <div  style={{display:"flex", zIndex:"2"}}><img src={im3} alt="1"  /><i  id="heart"  className="fa-solid fa-heart"></i></div>
-            <div
+            <div  style={{display:"flex", zIndex:"2"}}><img src={im4} alt="1"  /><i  id="heart"  className="fa-solid fa-heart"></i></div>
+            <div  style={{display:"flex", zIndex:"2"}}><img src={im5} alt="1"  /><i  id="heart"  className="fa-solid fa-heart"></i></div>
+            <div  style={{display:"flex", zIndex:"2"}}><img src={im6} alt="1"  /><i  id="heart"  className="fa-solid fa-heart"></i></div>
+            <div  style={{display:"flex", zIndex:"2"}}><img src={im7} alt="1"  /><i  id="heart"  className="fa-solid fa-heart"></i></div>
+            <div  style={{display:"flex", zIndex:"2"}}><img src={im8} alt="1"  /><i  id="heart"  className="fa-solid fa-heart"></i></div>
+            
+
+        </div>
+      
+        
+    )
+}
