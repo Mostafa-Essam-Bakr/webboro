@@ -1,0 +1,197 @@
+.parent-img img{
+    width: 300px;
+    height: 200px;
+    outline-style: dashed;
+    box-shadow: 5px 5px 20px;
+    border-radius: 5px 5px 112px 112px;
+    z-index: 1;
+    transition: .5s;
+    animation-name: up;
+    animation-duration: 1s;
+    animation-delay: 0s;
+
+}
+
+
+@keyframes up {
+
+    from{
+opacity: 0;
+    }
+
+    to{
+opacity: 100px;
+    }
+    
+}
+
+
+
+.parent-img{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.bs{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    top: -127px;
+    margin: 8px;
+    justify-content: flex-start;
+
+    animation-name: up;
+    animation-duration: 1s;
+    animation-delay: 0s;
+
+
+}
+
+
+@keyframes up {
+
+    from{
+opacity: 0;
+    }
+
+    to{
+opacity: 100px;
+    }
+    
+}
+
+
+
+
+
+
+
+.b1{
+    border: none;
+    background-color: #f37d23;
+    height: 70px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #ffb000;
+    cursor: pointer;
+    font-size: larger;
+    z-index: 99;
+
+}
+.b2{
+    border: none;
+    background-color: #00719c;
+    height: 70px;
+    width: 200px;
+
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #004fff;
+    cursor: pointer;
+    font-size: larger;
+    z-index: 99;
+
+
+}
+.b1:hover{
+    box-shadow: none;
+    background-color: #eb6600;
+
+}
+.b2:hover{
+    box-shadow: none;
+    background-color:#03a4e4;
+
+}
+
+.slidimg{
+    animation-name: up;
+    animation-duration: 1s;
+
+
+
+
+}
+
+
+@keyframes up {
+
+    from{
+opacity: 0;
+    }
+
+    to{
+opacity: 100px;
+    }
+    
+
+}
+
+
+.lunch{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.lunch i{
+    color: white;
+    font-size: x-large;
+    padding-left: 13px;
+    cursor: pointer;
+
+
+}
+.lunch i:hover{
+    color: rgb(7, 223, 7);
+    box-shadow: 5px 5px 20px;
+}
+
+.cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    filter: blur(3px);
+}
+.mo{
+    background-color: #507ea3;
+    border-radius: 18px;
+}
+
+
+@media screen and (max-width:700px){
+    .bs{
+
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        height: 100px;
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        top: 10px;}
+        
+        .b1 , .b2 {
+            width: 150px;
+            height: 50px;
+        }
+    
+    
+    .navhom{
+        font-size: small;
+    }
+
+    .navhom .h1 {
+
+        width: 50px;
+    }
+
+    
+    
+    
+    }

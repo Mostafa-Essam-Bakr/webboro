@@ -1,0 +1,96 @@
+.top-bar{
+    box-shadow: 1px 5px 14px grey;
+}
+
+.parent-side{
+    text-align: center;
+}
+
+.side-bar{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    width: 200px;
+    color: black;
+    background-color: #80acd3;
+    outline: solid #80acd3;
+    transition: .5s;
+cursor: pointer;
+border-radius: 20px;
+text-align: center;
+
+    text-decoration: none;
+    font-size: xx-large;
+    text-shadow: 1px 1px 10px grey;
+    font-family: fantasy;
+}
+.active{
+    background-color: white;
+    text-shadow: none;
+}
+
+.side-bar:hover{
+    text-shadow: none;
+    background: none;
+
+}
+.side-bar i{
+    padding-right: 10px;
+}
+
+
+.tabel{
+    height: 200px;
+    width: 1000px;
+    animation-name: up;
+    animation-duration: 1s;
+
+
+
+
+}
+
+
+@keyframes up {
+
+    from{
+opacity: 0;
+    }
+
+    to{
+opacity: 100px;
+    }
+    
+}
+
+.tabel1 tbody ,  td{
+    outline: solid 1px  rgb(58, 136, 204);
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+
+
+
+
+}
+
+tbody td i{
+    
+    text-shadow: 1px 1px 4px grey;
+    transition: .5s;
+}
+tbody td i:hover{
+    text-shadow: none;
+}
+
+.tabel th{
+    height: 50px;
+    width: calc(1000px/3);
+    outline: solid 1px rgb(58, 136, 204);
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(58, 136, 204);
+    font-size: x-large;
+    font-family: none;
+text-align: center;}
