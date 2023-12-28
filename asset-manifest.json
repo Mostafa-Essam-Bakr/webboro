@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/webboro/static/css/main.ac296eb2.css",
+    "main.js": "/webboro/static/js/main.d92ec21c.js",
+    "static/media/fa-solid-900.ttf": "/webboro/static/media/fa-solid-900.bb5be820e5eb072d5758.ttf",
+    "static/media/fa-brands-400.ttf": "/webboro/static/media/fa-brands-400.4c05cd9bfc1270fb1cd0.ttf",
+    "static/media/fa-solid-900.woff2": "/webboro/static/media/fa-solid-900.4cbe3db2046bbf3f98b1.woff2",
+    "static/media/fa-brands-400.woff2": "/webboro/static/media/fa-brands-400.498f4d22186034d218e9.woff2",
+    "static/media/image10.webp": "/webboro/static/media/image10.ecfe1142c765cc4c16d6.webp",
+    "static/media/fa-regular-400.ttf": "/webboro/static/media/fa-regular-400.96e19e1a389efc52c1ac.ttf",
+    "static/media/imge1.webp": "/webboro/static/media/imge1.079b8612c3a4428d9baa.webp",
+    "static/media/image7.webp": "/webboro/static/media/image7.0c8d4f099a07ddef3134.webp",
+    "static/media/image9.webp": "/webboro/static/media/image9.4818ee3cf28bfb917fbb.webp",
+    "static/media/image6.webp": "/webboro/static/media/image6.93c214f5b21d6ac1f786.webp",
+    "static/media/imge2.webp": "/webboro/static/media/imge2.deef37e1f742980fe489.webp",
+    "static/media/imge5.webp": "/webboro/static/media/imge5.3ac9ff8a171691f2e60d.webp",
+    "static/media/imge4.webp": "/webboro/static/media/imge4.8b0fd9b70b42a142d1de.webp",
+    "static/media/image8.webp": "/webboro/static/media/image8.7fe876292f5c7f352f0d.webp",
+    "static/media/fa-regular-400.woff2": "/webboro/static/media/fa-regular-400.83824cd5b836d63b9eac.woff2",
+    "static/media/image11.webp": "/webboro/static/media/image11.65f106d942ea2849cc2e.webp",
+    "static/media/imge3.webp": "/webboro/static/media/imge3.9408a6abfd4badcbe2b4.webp",
+    "static/media/fa-v4compatibility.ttf": "/webboro/static/media/fa-v4compatibility.6b0efc2420efff557025.ttf",
+    "static/media/fa-v4compatibility.woff2": "/webboro/static/media/fa-v4compatibility.62590c81afe6966dda05.woff2",
+    "index.html": "/webboro/index.html",
+    "main.ac296eb2.css.map": "/webboro/static/css/main.ac296eb2.css.map",
+    "main.d92ec21c.js.map": "/webboro/static/js/main.d92ec21c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac296eb2.css",
+    "static/js/main.d92ec21c.js"
+  ]
+}
